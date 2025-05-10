@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LSMFPlayerSample_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Emm-G5-uaP">
+                                <rect key="frame" x="40" y="217" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NpN-xe-qqn">
+                                <rect key="frame" x="40" y="158" width="48" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="48" id="jjR-ck-hyX"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" image="backward.end.alt.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="rewindButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eir-Ov-EJg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6px-Zk-DVh">
+                                <rect key="frame" x="136" y="158" width="48" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="48" id="Nt3-qA-b5Y"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" image="pause.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="pauseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Afi-O0-fkh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSR-rx-Vxf">
+                                <rect key="frame" x="232" y="158" width="48" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="48" id="q85-d6-I7L"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" image="play.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="playButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y5c-ah-xfZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wqe-R3-26a">
+                                <rect key="frame" x="238" y="217" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6px-Zk-DVh" firstAttribute="leading" secondItem="NpN-xe-qqn" secondAttribute="trailing" constant="48" id="2Y6-wZ-w6C"/>
+                            <constraint firstItem="HSR-rx-Vxf" firstAttribute="centerY" secondItem="NpN-xe-qqn" secondAttribute="centerY" id="6BK-zy-EjC"/>
+                            <constraint firstItem="6px-Zk-DVh" firstAttribute="centerY" secondItem="NpN-xe-qqn" secondAttribute="centerY" id="9wJ-Gd-PqY"/>
+                            <constraint firstItem="NpN-xe-qqn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="Ent-Rj-a6p"/>
+                            <constraint firstItem="HSR-rx-Vxf" firstAttribute="leading" secondItem="6px-Zk-DVh" secondAttribute="trailing" constant="48" id="LNN-a1-Eox"/>
+                            <constraint firstItem="Wqe-R3-26a" firstAttribute="centerY" secondItem="Emm-G5-uaP" secondAttribute="centerY" id="SJa-c6-tbE"/>
+                            <constraint firstItem="Emm-G5-uaP" firstAttribute="leading" secondItem="NpN-xe-qqn" secondAttribute="leading" id="TQt-gj-jb1"/>
+                            <constraint firstItem="Emm-G5-uaP" firstAttribute="top" secondItem="NpN-xe-qqn" secondAttribute="bottom" constant="24" id="Tdm-SY-DXo"/>
+                            <constraint firstItem="Wqe-R3-26a" firstAttribute="trailing" secondItem="HSR-rx-Vxf" secondAttribute="trailing" id="d2k-IG-XpH"/>
+                            <constraint firstItem="NpN-xe-qqn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="ztQ-PK-auo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pauseButton" destination="6px-Zk-DVh" id="N6b-iV-HyH"/>
+                        <outlet property="playButton" destination="HSR-rx-Vxf" id="Kiw-4o-Am3"/>
+                        <outlet property="playTimeLabel" destination="Emm-G5-uaP" id="ZlE-8i-85t"/>
+                        <outlet property="remainTimeLabel" destination="Wqe-R3-26a" id="2QQ-Wy-PP7"/>
+                        <outlet property="rewindButton" destination="NpN-xe-qqn" id="Jxv-Wf-y35"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2" y="-7"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="backward.end.alt.fill" catalog="system" width="128" height="62"/>
+        <image name="pause.fill" catalog="system" width="114" height="128"/>
+        <image name="play.fill" catalog="system" width="120" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
