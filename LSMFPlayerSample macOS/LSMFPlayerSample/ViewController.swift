@@ -28,7 +28,7 @@ class ViewController: NSViewController {
         print(LMIDI.sourceNames)
         print(LMIDI.destinationNames)
         
-        midiDevice = LMIDI(sourceName: LMIDI.sourceNames.first!, destinationName: LMIDI.destinationNames.first!)
+        midiDevice = LMIDI(sourceName: nil, destinationName: LMIDI.destinationNames.first!)
         smfPlayer = LSMFPlayer(filePath: Bundle.main.resourcePath! + "/Moonlight-2.mid")
         smfPlayer?.MIDIDevice = midiDevice
         

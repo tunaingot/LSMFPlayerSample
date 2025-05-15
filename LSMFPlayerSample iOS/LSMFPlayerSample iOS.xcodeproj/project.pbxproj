@@ -34,7 +34,7 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		68E64AD22DCF4F310056B642 /* Exceptions for "frameworks" folder in "Embed Frameworks" phase from "LSMFPlayerSample iOS" target */ = {
+		68AA2D9F2DD068FB00BD0F40 /* Exceptions for "frameworks" folder in "Embed Frameworks" phase from "LSMFPlayerSample iOS" target */ = {
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
 			attributesByRelativePath = {
 				SMFPlayerFramework.framework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
@@ -58,7 +58,7 @@
 		68E64ACC2DCF4F1C0056B642 /* frameworks */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				68E64AD22DCF4F310056B642 /* Exceptions for "frameworks" folder in "Embed Frameworks" phase from "LSMFPlayerSample iOS" target */,
+				68AA2D9F2DD068FB00BD0F40 /* Exceptions for "frameworks" folder in "Embed Frameworks" phase from "LSMFPlayerSample iOS" target */,
 			);
 			path = frameworks;
 			sourceTree = "<group>";

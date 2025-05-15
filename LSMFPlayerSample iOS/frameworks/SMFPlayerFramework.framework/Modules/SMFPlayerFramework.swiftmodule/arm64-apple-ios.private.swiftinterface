@@ -35,7 +35,7 @@ public struct LMIDIEventSetting : Swift.Codable {
   public static func load(forKey: Swift.String) -> SMFPlayerFramework.LMIDIEventSetting
   public func encode(to encoder: any Swift.Encoder) throws
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class LMIDI : ObjectiveC.NSObject {
+public class LMIDI {
   public static var connectionChangedNotification: Foundation.Notification.Name {
     get
   }
@@ -61,18 +61,19 @@ public struct LMIDIEventSetting : Swift.Codable {
   public static var destinationNames: [Swift.String] {
     get
   }
-  public var sourceName: Swift.String {
+  public var sourceName: Swift.String? {
     get
     set
   }
-  public var destinationName: Swift.String {
+  public var destinationName: Swift.String? {
     get
     set
   }
   public var isDisplayDebugMessage: Swift.Bool
   public var delegate: (any SMFPlayerFramework.LMIDIDelegate)?
   public var isReceiveEnable: Swift.Bool
-  public init?(sourceName: Swift.String, destinationName: Swift.String)
+  public init?()
+  public init?(sourceName: Swift.String?, destinationName: Swift.String?)
   public static func sourceExists(_ sourceName: Swift.String) -> Swift.Bool
   public static func destinationExists(_ destinationName: Swift.String) -> Swift.Bool
   public static func deviceExists(sourceName: Swift.String, destinationName: Swift.String) -> Swift.Bool
@@ -133,13 +134,9 @@ public struct LMIDIEventSetting : Swift.Codable {
   public static func beatTime(setTempoEvent: Foundation.Data) -> Swift.Int
   public static func isBlackKey(noteNumber: Swift.Int) -> Swift.Bool
   public static func isWhiteKey(noteNumber: Swift.Int) -> Swift.Bool
+  public static func recommendDestinationDevice() -> SMFPlayerFramework.LMIDI?
   public static func recommendDevice() -> SMFPlayerFramework.LMIDI?
   @objc deinit
-}
-extension Swift.Double {
-  public var MIDITimeStamp: CoreMIDI.MIDITimeStamp {
-    get
-  }
 }
 @objc @_inheritsConvenienceInitializers public class LSMFPlayer_timer : SMFPlayerFramework.LSMFPlayer_common, SMFPlayerFramework.LSMFPlayerDelegate {
   override public init(filePath: Swift.String)
