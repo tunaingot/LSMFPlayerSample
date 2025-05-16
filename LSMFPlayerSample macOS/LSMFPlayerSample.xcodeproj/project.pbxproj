@@ -24,7 +24,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		68AA2DEE2DD06DA400BD0F40 /* Exceptions for "frameworks" folder in "Embed Frameworks" phase from "LSMFPlayerSample" target */ = {
+		6846159D2DD71C1100162789 /* Exceptions for "frameworks" folder in "Embed Frameworks" phase from "LSMFPlayerSample" target */ = {
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
 			attributesByRelativePath = {
 				SMFPlayerFramework.framework = (CodeSignOnCopy, RemoveHeadersOnCopy, );
@@ -45,7 +45,7 @@
 		68CC2C0F2DC0B52900EBC029 /* frameworks */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				68AA2DEE2DD06DA400BD0F40 /* Exceptions for "frameworks" folder in "Embed Frameworks" phase from "LSMFPlayerSample" target */,
+				6846159D2DD71C1100162789 /* Exceptions for "frameworks" folder in "Embed Frameworks" phase from "LSMFPlayerSample" target */,
 			);
 			path = frameworks;
 			sourceTree = "<group>";

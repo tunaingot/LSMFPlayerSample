@@ -52,7 +52,6 @@ public class LMIDI {
   public static let activeSensingReceivedNotification: Foundation.Notification.Name
   public static let receivedPacketKey: Swift.String
   public static let timeStampKey: Swift.String
-  public static let systemExclusiveSnedCompleteNotification: Foundation.Notification.Name
   public static let notePreviewFinishNotification: Foundation.Notification.Name
   public static let notePreviewFinishChKey: Swift.String
   public static var sourceNames: [Swift.String] {
@@ -71,17 +70,14 @@ public class LMIDI {
   }
   public var isDisplayDebugMessage: Swift.Bool
   public var delegate: (any SMFPlayerFramework.LMIDIDelegate)?
-  public var isReceiveEnable: Swift.Bool
   public init?()
   public init?(sourceName: Swift.String?, destinationName: Swift.String?)
   public static func sourceExists(_ sourceName: Swift.String) -> Swift.Bool
   public static func destinationExists(_ destinationName: Swift.String) -> Swift.Bool
-  public static func deviceExists(sourceName: Swift.String, destinationName: Swift.String) -> Swift.Bool
   public static func send(packet: Foundation.Data, timeStamp: CoreMIDI.MIDITimeStamp)
   public func send(packet: Foundation.Data, timeStamp: CoreMIDI.MIDITimeStamp)
   public func send(packet: Foundation.Data)
   public func send(packetArray: [Foundation.Data])
-  public func send(sysex: Foundation.Data)
   public func cancelSend()
   @discardableResult
   public func noteOn(ch: Swift.UInt8, noteNumber: Swift.UInt8, velocity: Swift.UInt8) -> Foundation.Data

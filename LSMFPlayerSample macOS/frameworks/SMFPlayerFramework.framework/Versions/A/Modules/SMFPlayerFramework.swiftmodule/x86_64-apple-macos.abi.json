@@ -5866,7 +5866,8 @@
               "HasInitialValue",
               "HasStorage",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -6301,7 +6302,8 @@
             "mangledName": "$s18SMFPlayerFramework17LSMFPlayer_commonC15isPianoPlayModeSbvp",
             "moduleName": "SMFPlayerFramework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -6462,7 +6464,8 @@
             "mangledName": "$s18SMFPlayerFramework17LSMFPlayer_commonC10startTempoSdvp",
             "moduleName": "SMFPlayerFramework",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -7116,14 +7119,14 @@
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "BooleanLiteral",
-      "offset": 20658,
+      "offset": 20656,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LMIDI.swift",
       "kind": "BooleanLiteral",
-      "offset": 65212,
+      "offset": 65210,
       "length": 5,
       "value": "false"
     },
@@ -7165,7 +7168,7 @@
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPlayer(Timer).swift",
       "kind": "BooleanLiteral",
-      "offset": 1564,
+      "offset": 1760,
       "length": 5,
       "value": "false"
     },
@@ -7186,315 +7189,315 @@
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "IntegerLiteral",
-      "offset": 3157,
+      "offset": 3163,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "IntegerLiteral",
-      "offset": 3346,
+      "offset": 3353,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "IntegerLiteral",
-      "offset": 3564,
+      "offset": 3573,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "IntegerLiteral",
-      "offset": 4598,
+      "offset": 4619,
       "length": 3,
       "value": "480"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "IntegerLiteral",
-      "offset": 4802,
+      "offset": 4823,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "IntegerLiteral",
-      "offset": 4940,
+      "offset": 4961,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "IntegerLiteral",
-      "offset": 9742,
+      "offset": 10067,
       "length": 3,
       "value": "480"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "IntegerLiteral",
-      "offset": 13464,
+      "offset": 13805,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "FloatLiteral",
-      "offset": 13667,
+      "offset": 14008,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "BooleanLiteral",
-      "offset": 13708,
+      "offset": 14049,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "IntegerLiteral",
-      "offset": 13743,
+      "offset": 14084,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "IntegerLiteral",
-      "offset": 13780,
+      "offset": 14121,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "IntegerLiteral",
-      "offset": 13818,
+      "offset": 14159,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "IntegerLiteral",
-      "offset": 13859,
+      "offset": 14200,
       "length": 6,
       "value": "500000"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "IntegerLiteral",
-      "offset": 28997,
+      "offset": 29342,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "IntegerLiteral",
-      "offset": 29055,
+      "offset": 29400,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "IntegerLiteral",
-      "offset": 29103,
+      "offset": 29448,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "IntegerLiteral",
-      "offset": 29430,
+      "offset": 29775,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "StringLiteral",
-      "offset": 31416,
+      "offset": 31568,
       "length": 39,
       "value": "\"LSMFPlayer.messageDidSendNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "StringLiteral",
-      "offset": 31626,
+      "offset": 31778,
       "length": 47,
       "value": "\"LSMFPlayer.systemExclusiveDidSendNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "StringLiteral",
-      "offset": 31820,
+      "offset": 31972,
       "length": 42,
       "value": "\"LSMFPlayernoteMessageDidSendNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "StringLiteral",
-      "offset": 31949,
+      "offset": 32101,
       "length": 45,
       "value": "\"LSMFPlayer.noteOnMessageDidSendNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "StringLiteral",
-      "offset": 32082,
+      "offset": 32234,
       "length": 46,
       "value": "\"LSMFPlayer.noteOffMessageDidSendNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "StringLiteral",
-      "offset": 32269,
+      "offset": 32421,
       "length": 47,
       "value": "\"LSMFPlayer.polyKeyPressureDidSendNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "StringLiteral",
-      "offset": 32400,
+      "offset": 32552,
       "length": 42,
       "value": "\"LSMFPlayer.chPressureDidSendNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "StringLiteral",
-      "offset": 32590,
+      "offset": 32742,
       "length": 45,
       "value": "\"LSMFPlayer.controlChangeDidSendNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "StringLiteral",
-      "offset": 32767,
+      "offset": 32919,
       "length": 41,
       "value": "\"LSMFPlayer.pitchBendDidSendNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "StringLiteral",
-      "offset": 32953,
+      "offset": 33105,
       "length": 45,
       "value": "\"LSMFPlayer.programChangeDidSendNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "StringLiteral",
-      "offset": 33157,
+      "offset": 33309,
       "length": 44,
       "value": "\"LSMFPlayer.playbackTimeUpdatedNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "StringLiteral",
-      "offset": 33294,
+      "offset": 33446,
       "length": 31,
       "value": "\"LSMFPlayer.playTimeSecondsKey\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "StringLiteral",
-      "offset": 33371,
+      "offset": 33523,
       "length": 33,
       "value": "\"LSMFPlayer.remainTimeSecondsKey\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "StringLiteral",
-      "offset": 33537,
+      "offset": 33689,
       "length": 25,
       "value": "\"LMIDI.receivedPacketKey\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "StringLiteral",
-      "offset": 33650,
+      "offset": 33802,
       "length": 26,
       "value": "\"LSMFPlayer.sendPacketKey\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "StringLiteral",
-      "offset": 33785,
+      "offset": 33937,
       "length": 32,
       "value": "\"LSMFPlayer.playEndNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "StringLiteral",
-      "offset": 34012,
+      "offset": 34164,
       "length": 43,
       "value": "\"LSMFPlayer.tempoAnalyzeFinishNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "StringLiteral",
-      "offset": 34139,
+      "offset": 34412,
       "length": 42,
       "value": "\"LSMFPlayer.fileAnalyzeFinishNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "StringLiteral",
-      "offset": 34314,
+      "offset": 34587,
       "length": 38,
       "value": "\"LSMFPlayer.setTempoEventNotification\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "StringLiteral",
-      "offset": 34443,
+      "offset": 34716,
       "length": 34,
       "value": "\"LSMFPlayer.setTempoEventValueKey\""
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "FloatLiteral",
-      "offset": 35103,
+      "offset": 35376,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "BooleanLiteral",
-      "offset": 35483,
+      "offset": 35756,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "BooleanLiteral",
-      "offset": 35591,
+      "offset": 35864,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "BooleanLiteral",
-      "offset": 35724,
+      "offset": 35997,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "Array",
-      "offset": 35862,
+      "offset": 36135,
       "length": 319,
       "value": "[7, 10, 11, 91, 93, 101, 100, 6, 38, 0, 32]"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "IntegerLiteral",
-      "offset": 37048,
+      "offset": 37379,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hiroshi\/Developer\/Xcode Projects\/XPP\/LSMFPLayer(Common).swift",
       "kind": "BooleanLiteral",
-      "offset": 37097,
+      "offset": 37428,
       "length": 5,
       "value": "false"
     }
