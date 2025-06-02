@@ -6,31 +6,31 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		um/YqOQr+gIP2rERktPi5Pybnz8=
+		rC8bU+aH96hXh/sm0Ni+mYDDXgc=
 		</data>
 		<key>Modules/SMFPlayerFramework.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		lvrjsnTRSk97UFKhIVKeM0Ub5Xk=
+		Oo50R+5VLBX8CHEpL8kmJa/kiWw=
 		</data>
 		<key>Modules/SMFPlayerFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		dwJVs1RELVSE1HFGMrG3s0gxAo4=
+		Cvc/sxO7zIWlj5mBN4l0dQWtsiQ=
 		</data>
 		<key>Modules/SMFPlayerFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Oc98GpL5yzVd6iBPsTbP1+eNFu8=
+		zZYpbqLure4dvYjS1SOCM6HIGMA=
 		</data>
 		<key>Modules/SMFPlayerFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		4+EK/anW+M5BwhQDr2f6++l3IaU=
+		d5c6Xwvd1ob/yF+5BJfyDT3vwjg=
 		</data>
 		<key>Modules/SMFPlayerFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Oc98GpL5yzVd6iBPsTbP1+eNFu8=
+		zZYpbqLure4dvYjS1SOCM6HIGMA=
 		</data>
 		<key>Modules/SMFPlayerFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		szf1+d2rQLT/AG9EzOcVVYZ8wO0=
+		la1OZmOGgTgU0K19RBLuIde6/6E=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -39,42 +39,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8bDNClEY6v4N2TCiz2KnrJJeZvkvZQp+ooXNVNLm/Lc=
+			AmOBS0HMBX8/rTMt/B5MPooSJNp+aYLMduiiASQwLLw=
 			</data>
 		</dict>
 		<key>Modules/SMFPlayerFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3t6idGECtSk+kWgxVSfhqfYz8BalVXmEDqH6Wmd/rJ8=
+			f0TziOGuVCiHeG0jZrTEWO1kLycjcdhEd0DPvcgjgiE=
 			</data>
 		</dict>
 		<key>Modules/SMFPlayerFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/5Vhfc9jb+DLF9a0OyL5hoA7KAkzOfG7CoamHR2ZAFw=
+			4cbvBBJuqTQpPk8HvP5EfZG0Z4v9M0nnzgERnpz++ug=
 			</data>
 		</dict>
 		<key>Modules/SMFPlayerFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FeHo1FeJlmaco25uJpenRhvJ4u9Tyd4lCU3HNwiRKRU=
+			kOr7z0f+a4iVG6PtCwZmcVkSSj1O/E1SOU66nqztJlU=
 			</data>
 		</dict>
 		<key>Modules/SMFPlayerFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/5Vhfc9jb+DLF9a0OyL5hoA7KAkzOfG7CoamHR2ZAFw=
+			4cbvBBJuqTQpPk8HvP5EfZG0Z4v9M0nnzgERnpz++ug=
 			</data>
 		</dict>
 		<key>Modules/SMFPlayerFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vk3Kja3Zr61HJjuSIp+vxsdHO/jpVTotmhiTPL9wMY0=
+			tgAxqqgohfA6eXxSfy6jX4yRl5GSQUrWl1xcVMVv3Fg=
 			</data>
 		</dict>
 	</dict>
